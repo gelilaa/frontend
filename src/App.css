@@ -1,32 +1,26 @@
-.App {
-  text-align: center;
+.App{
+  margin-top: 0;
+}
+.App-logo{
+  margin: 5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* .App-logo :hover{
+  transform: scale(9.1);
+    overflow: hidden;
+    cursor: pointer;
+} */
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
+  margin: 0;
+  background-color: #F5EFE7;
+  min-height: 100vh;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +29,75 @@
   to {
     transform: rotate(360deg);
   }
+}
+.Path_1 {
+  overflow: visible;
+  position: absolute;
+  width: 44.927px;
+  height: 47.959px;
+  left: 1.937px;
+  top: 0px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#Path_2 {
+  fill: transparent;
+  stroke: rgba(111, 18, 18, 1);
+  stroke-width: 3px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.Path_2 {
+  overflow: visible;
+  position: absolute;
+  width: 4.982px;
+  height: 19.751px;
+  left: 29.564px;
+  top: 43.816px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+#about_me__ {
+  transition: transform .5s ease;
+  top: 9px;
+  position: relative;
+  justify-content: space-around;
+  margin: 10px;
+  overflow: visible;
+  width: 104px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: rgba(112, 112, 112, 1);
+  text-transform: uppercase;
+}
+
+#about_me__:hover{
+  transform: scale(1.1);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#Hello_Im_Gelila_A_Front-end_de {
+  position: relative;
+  text-transform:capitalize;
+  left: 99px;
+  top: 285px;
+  position: absolute;
+  overflow: visible;
+  width: 855px;
+  white-space: nowrap;
+  line-height: 55px;
+  margin-top: -3px;
+  text-align: center;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 49px;
+  color: rgba(112, 112, 112, 1);
 }

@@ -5,7 +5,23 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-animation: color-change-4x 6s linear infinite alternate both;
+    animation: color-change-4x 6s linear infinite alternate both;
 }
+@keyframes color-change-4x {
+  0% {
+    background: #e2e7e8;
+  }
+
+  66.666% {
+    background: #dacbcb;
+  }
+
+  100% {
+    background: #dfd09f;
+  }
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
