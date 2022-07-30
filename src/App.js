@@ -1,15 +1,22 @@
-
+import React from 'react';
 import './App.css';
 import { Header } from './components/Header';
 
 
+
+
+
 function App() {
+ 
+
   return (
     <>
       <Header />
-      <div id="Hello_Im_Gelila_A_Front-end_de">
+<h1 className='name'>Gelila T. Ali</h1>
+      <div className="intro">
         <span>
-         Hello there!<br/> {"Portfolio website under construction"}
+          Junior Front-End Developer And Web-Development Enthusiast Currently
+          Living In Belgium With Two Of My Own Creations And My Better Half. 
         </span>
       </div>
     </>
