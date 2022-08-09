@@ -1,6 +1,11 @@
 import React from 'react';
 import './App.css';
-import { Header } from './components/Header';
+import { Navbar } from './components/navbar/Navbar';
+import { Intro} from './components/intro/Intro.jsx'
+import { BrowserRouter, Route,  Routes } from "react-router-dom";
+import About  from './components/About';
+import Work from './components/Work'
+import { Blogs } from './components/Blogs';
 
 
 
@@ -10,16 +15,15 @@ function App() {
  
 
   return (
-    <>
-      <Header />
-<h1 className='name'>Gelila T. Ali</h1>
-      <div className="intro">
-        <span>
-          Junior Front-End Developer And Web-Development Enthusiast Currently
-          Living In Belgium With Two Of My Own Creations And My Better Half. 
-        </span>
-      </div>
-    </>
+    <BrowserRouter>
+      <Navbar/>
+      <Routes>
+        <Route path="/" element={<Intro />} />
+        <Route exact path="/about" element={<About />} />
+        <Route exact path="/work" element={<Work />} />
+        <Route exact path="/blog" element={<Blogs />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

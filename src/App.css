@@ -7,7 +7,7 @@
 .App-header {
   display: flex;
   margin: 0;
-  background-color: #F5EFE7;
+  background-color: #FFF8FF;
   min-height: 100vh;
   flex-direction: column;
   font-size: calc(10px + 2vmin);
@@ -54,7 +54,7 @@
   overflow: visible;
   width: 104px;
   white-space: nowrap;
-  text-align: center;
+  text-align:center;
   font-family: Segoe UI;
   font-style: normal;
   font-weight: normal;
@@ -69,33 +69,3 @@
   cursor: pointer;
 }
 
-.intro {
-  position: absolute;
-    max-width: 644px;
-    max-height: 191px;
-    left: 28px;
-    top: 353px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 30px;
-    /* or 125% */
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #898888;
-}
-.name{
-  position: absolute;
-    width: 391px;
-    height: 49px;
-    left: 202px;
-    top: 238px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 56px;
-    color: #000000;
-}
