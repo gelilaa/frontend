@@ -2,7 +2,6 @@ import React from 'react'
 import './style.css'
 import { NavLink} from 'react-router-dom'
 import { Header } from '../Header'
-import { gsap,RoughEase } from "gsap/all";
 import { Row,Col } from 'react-bootstrap';
 
 export const Navbar =()=>{
