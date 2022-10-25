@@ -7,6 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-animation: color-change-4x 6s linear infinite alternate both;
     animation: color-change-4x 6s linear infinite alternate both;
+    
 }
 @keyframes color-change-4x {
   0% {
@@ -14,11 +15,11 @@ body {
   }
 
   66.676% {
-    background: #dacbcb;
+    background: #4345b857;
   }
 
   100% {
-    background: #dfd09f;
+    background: #ffd1ed;
   }
 }
 
@@ -26,4 +27,29 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media only screen and (min-width : 320px) {
+  body{
+    background-color: yellow;
+  }
+    
+}
+
+@media only screen and (min-width : 768px) {
+body {
+    background-color: red;
+  }
+}
+
+@media only screen and (min-width : 1200px) {
+  body {
+      background-color: brown;
+    }
+}
+
+@media only screen and (min-width : 1600px) {
+  body {
+      background-color: green;
+    }
 }

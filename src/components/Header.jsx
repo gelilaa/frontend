@@ -7,11 +7,8 @@ let logo = require('../assets/me.png')
 
 export const Header=()=>{
     return(<>
-         <div className="container-header">
-          
-        <img className="App-logo" src={logo} alt="" />
-
-         
+         <div className="logo">
+             <img className="App-logo " src={logo} alt="" />
         </div>
        
         </>

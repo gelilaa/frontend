@@ -1,37 +1,36 @@
 import React from 'react'
 import './style.css'
-import { Link } from 'react-router-dom'
+import { NavLink} from 'react-router-dom'
 import { Header } from '../Header'
+import { gsap,RoughEase } from "gsap/all";
+import { Row,Col } from 'react-bootstrap';
 
 export const Navbar =()=>{
+
+  
     return(
-        <div className="container-nav">
-        <Link to="/">
+    <Row>
+      <Col>
+      <NavLink to="/">
+      <Header/>
+    </NavLink>
+      </Col>
+    <Col>
+     <NavLink to={"/work"}>
           <div id="about_me__">
-            <span>
-              <Header />
-            </span>
+            <span>Projects</span>
             <br />
           </div>
-        </Link>
-        <Link to={"/about"}>
+        </NavLink>
+    </Col>
+    <Col>
+     <NavLink to={"/blog"}>
           <div id="about_me__">
-            <span>about me </span>
+            <span>Blogs</span>
             <br />
           </div>
-        </Link>
-        <Link to={"/work"}>
-          <div id="about_me__">
-            <span>my-work</span>
-            <br />
-          </div>
-        </Link>
-        <Link to={"/blog"}>
-          <div id="about_me__">
-            <span>blogs</span>
-            <br />
-          </div>
-        </Link>
-      </div>
+        </NavLink>
+    </Col>
+      </Row>
     )
 }
