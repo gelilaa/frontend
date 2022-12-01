@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { FaArrowAltCircleUp, FaArrowUp } from "react-icons/fa";
+import {  FaArrowUp } from "react-icons/fa";
 import { IconContext } from "react-icons";
 export const ScrollToTop=()=> {
   const [isVisible, setIsVisible] = useState(false);
