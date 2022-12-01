@@ -21,7 +21,9 @@ export const Intro =()=>{
           <br/>
           <br/>
           <div>
+            <a href="mailto:teshome.gelila@gmail.com">
             <Button variant="outline-secondary" size="lg">contact me</Button>
+            </a>
           </div>
   
       </Card.Body>
