@@ -159,14 +159,16 @@
   margin-right: 30px;
   animation: jello-horizontal 0.9s  both;
 }
-.icons:hover{
-  transform: scale(1.2);
-    overflow: hidden;
-    cursor: pointer;
-}
 .faboot{
   height: 25px;
   color: inherit;
   animation: jello-horizontal 0.9s both;
 }
 
+.bottom{
+  background-color: rgba(0, 0, 0, 0.447);
+  
+}
+.card-img-overlay:hover .bottom{
+  visibility: visible;
+}

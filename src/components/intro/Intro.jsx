@@ -1,16 +1,14 @@
 import React from "react";
 import img from "../../assets/gelila.png"
 import './style.css'
-import { Skills } from "../Skills";
 import { Row,Col, Button,Card } from "react-bootstrap";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { IconContext } from "react-icons";
 export const Intro =()=>{
-
   
     return(<>
-    <Row>
-      <Col style={{ width: '40rem' }}  className='im d-none d-lg-block'>
+    <Row xs={1} md={2} className="g-4">
+      <Col   className=' d-none d-lg-block'>
       <Card.Img variant="center" src={img} />
       </Col>
      <Col xs={12} lg={5} style={{ width: '32rem' }} className= 'intro-word'>
@@ -25,6 +23,7 @@ export const Intro =()=>{
           <div>
             <Button variant="outline-secondary" size="lg">contact me</Button>
           </div>
+  
       </Card.Body>
     </Col>
      <Col lg={1}  className="d-none d-lg-block">
@@ -40,12 +39,6 @@ export const Intro =()=>{
         </IconContext.Provider>
       </div> 
         </Col>
-    </Row>
-    <br/>
-    <Row>
-      <Col>
-      <Skills />
-      </Col>
     </Row>
       </>
     );

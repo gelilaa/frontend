@@ -1,0 +1,30 @@
+[
+  {
+    "name": " Movies",
+    "image": "https://img.freepik.com/free-vector/father-mother-son-3d-glasses-sitting-chairs-holding-popcorn-buckets-soda-watching-funny-movie-cinema-theatre-vector-illustration-family-leisure-time-entertainment-concept_74855-13067.jpg?w=900&t=st=1669902585~exp=1669903185~hmac=afb7dfea74cdd45ea23ba76a0c50bf9af4872508eb59362cdfbd1b4c91e1d5cd",
+    "description": "react Query react router v6 css Grid movie api -tmdb",
+    "repo": "https://github.com/gelilaa/movies",
+    "url": "https://movies-tmdbapi.netlify.app/"
+  },
+  {
+    "name": " VoxBox",
+    "image": "https://img.freepik.com/free-vector/volunteering-concept-illustration_114360-4255.jpg?w=900&t=st=1669902499~exp=1669903099~hmac=4794d9d6d5328b6a60649cac02a2a4c001c732149a94477207c5450cf343f5c9",
+    "description": "Volunteer xChange Box.",
+    "repo": "https://github.com/gelilaa/VoxBoxs",
+    "url": "https://voxbox.herokuapp.com/"
+  },
+  {
+    "name": " Blog",
+    "image": "https://img.freepik.com/free-vector/copywriter-huge-laptop-writing-creative-promotional-text-copywriting-job-home-based-copywriter-freelance-copywriting-concept-illustration_335657-2375.jpg?w=900&t=st=1669902815~exp=1669903415~hmac=9c2a54c3828e7dcdf574f2acee5d5a73c0aa087adc4aee8bd356b0c2b484672b",
+    "description": "Build a Blog Template with HTML and CSS.",
+    "repo": "https://github.com/gelilaa/blog",
+    "url": "https://gelilaa.github.io/blog/index.html"
+  },
+  {
+    "name": " Calculator-refactor",
+    "image": "https://img.freepik.com/free-vector/finance-department-employees-are-calculating-expenses-company-s-business_1150-41782.jpg?w=900&t=st=1669902942~exp=1669903542~hmac=cfae1a8dd2e003bfded17237fee1556b342b8895bdd91a3b301b9e823be7d220",
+    "description": "calculate with js",
+    "repo": "https://github.com/gelilaa/calculator-refactor",
+    "url": "https://gelilaa.github.io/calculator-refactor/"
+  }
+]

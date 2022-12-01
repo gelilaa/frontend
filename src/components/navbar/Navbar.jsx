@@ -14,7 +14,7 @@ export const Navbar =()=>{
       <Header/>
     </NavLink>
       </Col>
-    <Col>
+    {/* <Col>
      <NavLink to={"/work"}>
           <div id="about_me__">
             <span>Projects</span>
@@ -29,7 +29,7 @@ export const Navbar =()=>{
             <br />
           </div>
         </NavLink>
-    </Col>
+    </Col> */}
       </Row>
     )
 }
